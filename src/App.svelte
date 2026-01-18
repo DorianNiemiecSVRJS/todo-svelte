@@ -34,7 +34,7 @@
       type="text"
       placeholder="Something to do..."
       bind:value={todoToSubmit}
-      class="px-2 py-0.5 md:py-1 placeholder:text-muted grow border-border border-e-2"
+      class="bg-secondary rounded-s-lg px-2 py-0.5 md:py-1 placeholder:text-muted grow border-border border-e-2"
     >
     <input
       type="submit"
@@ -57,7 +57,7 @@
                                 e.target as HTMLInputElement
                             ).checked;
                         }}
-            class="peer relative appearance-none size-7 min-w-7 border-border border-2 rounded-sm checked:bg-primary"
+            class="peer relative appearance-none size-7 min-w-7 border-border border-2 rounded-sm checked:bg-primary bg-secondary"
           >
           <svg
             class="absolute hidden pointer-events-none size-5 peer-checked:block mt-0.5 ms-1"
